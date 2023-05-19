@@ -2,12 +2,54 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Frontend</title>
+  <title>AUCPLUS | HOME</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/x-icon" href="./assets/images/logo.png">
 </head>
-<body>
-  <app-root></app-root>
-</body>
+<div class="container">
+  <header class="p-3 mb-3 border-bottom">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
+          <img src="./assets/images/full-logo.png" alt="mdo" width="128" style="margin-right: 50px;">
+        </a>
+  
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="auctions" class="nav-link px-2 link-body-emphasis">Auctions</a></li>
+          <li><a href="about" class="nav-link px-2 link-body-emphasis">About</a></li>
+          <li><a href="contact" class="nav-link px-2 link-body-emphasis">Contact</a></li>
+        </ul>
+  
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+        </form>
+  
+        <div class="dropdown text-end">
+          <a href="auth" class="d-block link-dark text-decoration-none">
+            <img src="./assets/icons/user-interface.png" alt="mdo" width="32" height="32" class="rounded-circle">
+          </a>
+       <!-- <ul class="dropdown-menu text-small">
+            <li><a class="dropdown-item" href="#">New project...</a></li>
+            <li><a class="dropdown-item" href="#">Settings</a></li>
+            <li><a class="dropdown-item" href="#">Profile</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Sign out</a></li>
+          </ul>-->  
+        </div>
+      </div>
+    </div>
+  </header>
+  <body>
+    <app-root></app-root>
+  </body>
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+        <img src="./assets/images/logo.png" alt="mdo" width="32" height="32" class="rounded-circle">
+      </a>
+      <span class="mb-3 mb-md-0 text-body-secondary">© 2023 aucPlus, Inc</span>
+    </div>
+  </footer>
+</div>
 </html>
